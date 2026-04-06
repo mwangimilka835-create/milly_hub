@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milka Mumbi | Tech Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root { 
+            --main: #0f172a; 
+            --accent: #38bdf8; 
+            --card: #ffffff; 
+            --cv-bg: #1e293b;
+        }
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background: #f1f5f9; 
+            margin: 0; 
+            padding: 20px; 
+            display: flex; 
+            justify-content: center; 
+            color: var(--main);
+        }
+        .hub-container { 
+            width: 100%; 
+            max-width: 400px; 
+            text-align: center; 
+            padding-top: 20px;
+        }
+        .profile-header { margin-bottom: 30px; }
+        .profile-header img { 
+            width: 110px; 
+            height: 110px; 
+            border-radius: 50%; 
+            border: 4px solid var(--accent); 
+            object-fit: cover; 
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+        }
+        .profile-header h2 { margin: 15px 0 5px 0; font-size: 1.5rem; }
+        .tagline { font-size: 0.9rem; color: #64748b; margin-bottom: 25px; }
+
+        .btn-link { 
+            background: var(--card); 
+            color: var(--main); 
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between;
+            padding: 18px 25px; 
+            margin-bottom: 12px; 
+            border-radius: 16px; 
+            text-decoration: none; 
+            font-weight: 600;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); 
+            transition: all 0.2s ease;
+        }
+        .btn-link:active { transform: scale(0.97); }
+        .btn-link span { color: var(--accent); font-size: 1.2rem; font-weight: bold; }
+
+        /* Special Styling for CV Button */
+        .cv-btn { 
+            background: var(--cv-bg); 
+            color: white; 
+            margin-bottom: 20px;
+        }
+
+        .footer-text { 
+            font-size: 0.7rem; 
+            color: #94a3b8; 
+            margin-top: 40px; 
+            text-transform: uppercase; 
+            letter-spacing: 1.5px; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="hub-container">
+    <div class="profile-header">
+        <img src="Screenshot_20260401-160624_1.jpg" alt="Milka Mumbi">
+        <h2>Milka Mumbi</h2>
+        <p class="tagline">ICT Specialist | Web Developer</p>
+    </div>
+
+    <a href="Milka_Mumbi_CV.pdf" class="btn-link cv-btn" download>
+        📄 Download My CV <span style="color: var(--accent);">↓</span>
+    </a>
+
+    <a href="https://mwangimilka835-create.github.io/identity/" class="btn-link">
+        💼 Professional Portfolio <span>→</span>
+    </a>
+
+    <a href="https://mwangimilka835-create.github.io/inventory-system/" class="btn-link">
+        📦 StockPro Inventory App <span>→</span>
+    </a>
+
+    <a href="https://wa.me/254112873218" class="btn-link">
+        💬 WhatsApp Consultation <span>→</span>
+    </a>
+
+    <div class="footer-text">Built by Milka Mumbi • 2026</div>
+</div>
+
+</body>
+  </html>
